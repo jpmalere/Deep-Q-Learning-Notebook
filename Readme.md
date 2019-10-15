@@ -16,8 +16,6 @@ The simulation contains a single agent that navigates a large environment.  At e
 
 The state space has `37` dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.  A reward of `+1` is provided for collecting a yellow banana, and a reward of `-1` is provided for collecting a blue banana. 
 
-Run the code cell below to print some information about the environment.
-
 The training is performed on ```n_episodes = 20000``` and is interrupted if the mean average score is equal or greater than 13.0 
 
 ### 2. Getting Started
@@ -32,8 +30,6 @@ The following files are necessary to run the code:
 - ```model.py```
 - ```dqn_agent.py```
 
-The Banana environment that matches your operating system also need to be downloaded from Udacity.
-
 ### 3. Instructions
 
-In order to run the code, execute the steps provided on the ```Report.ipynb``` notebook
+In order to run the code, execute the steps provided on the ```Navigation.ipynb``` notebook
