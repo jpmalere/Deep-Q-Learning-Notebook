@@ -27,6 +27,8 @@ The agent implementation is performed with two auxiliary files:
 
 The criteria for choosing the number of layers and the number of neurons was from the less complex to the more complex models. The initial considered number of layers was two and the hidden layer number of neurons was 64. After training the number of neurons was increased to 128, with a greater performance in terms of episodes to reach the stopping criteria (average score >= 13). The number of neurons was increased again to 256 per layer, but the performance didn't increase and the processing time was greater compared to the 128 neurons network. Given that the required performance was achieved (500 episodes for an average score greater than 13) the two hidden layers with 128 neurons each was selected for the project.
 
+The graph below shows the score per episode during the training time.
+![result](https://user-images.githubusercontent.com/8217602/66859815-5f869600-ef62-11e9-8fa7-ca76864bc536.png)
 
 ### 3. Discussion and future works
 
