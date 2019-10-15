@@ -25,6 +25,9 @@ The agent implementation is performed with two auxiliary files:
 - ```model.py```: implements the class QNetwork where a neural network is implemented. A two hidden layer with 128 neurons each is implemented. The first hidden layer is composed by a linear function with a relu activation. The second hidden layer is composed of linear functions.
 - ```dqn_agent.py```: implements the class Agent with the ```step```, ```act```, ```learn``` and ```soft_update``` methods. The ```step``` method evokes the ```learn``` function when necessary or just save the experiences in a buffer. The ```learn``` function updates the neural network weights based in order to minimize the loss function. The ```act``` function chooses the action based on the neural network or based on a epsilon-greedy policy. The ```soft_update```function updates the neural network weights.
 
+The criteria for choosing the number of layers and the number of neurons was from the less complex to the more complex models. The initial considered number of layers was two and the hidden layer number of neurons was 64. After training the number of neurons was increased to 128, with a greater performance in terms of episodes to reach the stopping criteria (average score >= 13). The number of neurons was increased again to 256 per layer, but the performance didn't increase and the processing time was greater compared to the 128 neurons network. Since the number of episodes to reach the required performance was considered small (~400 episodes) the number of layers was not increased.
+
+
 ### 3. Discussion and future works
 
 The deep-Q-learning algorithm was able to train an agent to collect the right type of bananas on the simulated environment and fulfilled the specified requirement (average score equal or greater than 13 for 100 episodes). For future works the following improvements could be tested:
