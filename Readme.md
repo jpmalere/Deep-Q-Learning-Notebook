@@ -33,3 +33,7 @@ The following files are necessary to run the code:
 ### 3. Instructions
 
 In order to run the code, execute the steps provided on the ```Navigation.ipynb``` notebook
+
+### 4. More about the method
+
+The ```Report.ipynb``` contains more information about the deep Q Learning method.
