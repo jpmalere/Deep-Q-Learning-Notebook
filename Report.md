@@ -32,9 +32,12 @@ The graph below shows the score per episode during the training time.
 
 ### 3. Discussion and future works
 
-The deep Q-learning algorithm was able to train an agent to collect the right type of bananas on the simulated environment and fulfilled the specified requirement (average score equal or greater than 13 for 100 episodes). For future works the following improvements could be tested:
+The deep Q-learning algorithm was able to train an agent to collect the right type of bananas on the simulated environment and fulfilled the specified requirement (average score equal or greater than 13 for 100 episodes). For future works the following aspects could be tested for agent performance improvement:
+- Different loss functions;
+- Different optimizers for hyperparameters update; 
 - Prioritized experience replay;
-- Dueling Deep Q-Networks.
+- Dueling Deep Q-Networks;
+- Other supervised learning algorithms.
 
 ### 4. References¶
 
