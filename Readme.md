@@ -36,4 +36,4 @@ In order to run the code, execute the steps provided on the ```Navigation.ipynb`
 
 ### 4. More about the method
 
-The ```Report.ipynb``` contains more information about the deep Q Learning method.
+The ```Report.md``` contains more information about the deep Q Learning method.
