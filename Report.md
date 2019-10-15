@@ -27,7 +27,7 @@ The agent implementation is performed with two auxiliary files:
 
 ### 3. Discussion and future works
 
-The deep-Q-learning algorithm was able to train an agent to collect the right type of bananas on the simulated environment and fullfilled the specified requirement (average score equal or greater than 13 for 100 episodes). For future works the following improvements could be tested:
+The deep-Q-learning algorithm was able to train an agent to collect the right type of bananas on the simulated environment and fulfilled the specified requirement (average score equal or greater than 13 for 100 episodes). For future works the following improvements could be tested:
 - Prioritized experience replay;
 - Dueling Deep Q-Networks.
 
