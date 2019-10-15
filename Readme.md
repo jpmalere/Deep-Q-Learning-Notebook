@@ -21,7 +21,7 @@ The training is performed on ```n_episodes = 20000``` and is interrupted if the 
 ### 2. Getting Started
 
 The following packages are necessary to run the code:
-- ```UnityEnvironment```. The executable file of the environment is available at https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip.
+- ```UnityEnvironment```. The executable file of the environment is available at (for Windows x64): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip.
 - ```numpy```
 - ```torch```
 - ```matplotlib```
