@@ -1,10 +1,12 @@
 # Readme
 
-##  Project 1 - Navigation - Deep Reinforcement Learning
+##  Navigation - Deep Reinforcement Learning
+
+### Udacity - Nanodegree Program - Deep Reinforcement Learning
 
 ### 1. Introduction
 
-The code contained in the ```Navigation.ipynb``` file trains an agent to collect yellow bananas and to avoid blue bananas through a deep learning network. 
+The code contained in the ```Navigation.ipynb``` file trains an agent to collect yellow bananas and to avoid blue bananas through a deep learning network. The Unity Banana Collectors Agents Environment is used.
 
 The simulation contains a single agent that navigates a large environment.  At each time step, it has four actions at its disposal:
 - `0` - walk forward 
@@ -30,7 +32,7 @@ The following files are necessary to run the code:
 - ```model.py```
 - ```dqn_agent.py```
 
-The Banana environment that matches your operating system also need to be downloaded from Unit.
+The Banana environment that matches your operating system also need to be downloaded from Udacity.
 
 ### 3. Instructions
 
